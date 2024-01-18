@@ -28,6 +28,7 @@ namespace aaguirreS5
             dbPath= dbPath1;
         }
 
+        //Insertar
         public void AddNewPerson(string nombre) 
         {
             int result = 0;
@@ -46,6 +47,7 @@ namespace aaguirreS5
             }
         }
 
+        //Listar
         public List<Persona> GetAllPorle()
         {
             try
@@ -61,6 +63,7 @@ namespace aaguirreS5
             return new List<Persona>();
         }
         
+        //Actualizar
         public void UpdatePerson(int id, string newName)
         {
             try
@@ -100,6 +103,7 @@ namespace aaguirreS5
             }
         }
 
+        //Eliminar
         public void DeletePerson(int id)
         {
             try
